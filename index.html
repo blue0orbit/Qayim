@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QAYIM — Quran Content Studio</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #1a1a2e;
+            background: #fafafa;
+            line-height: 1.6;
+        }
+        a { color: #16697a; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        header {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        header .logo { font-size: 1.25rem; font-weight: 700; letter-spacing: 0.05em; }
+        header nav a { color: #c9d6df; margin-left: 1.25rem; font-size: 0.95rem; }
+        header nav a:hover { color: #fff; text-decoration: none; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16697a 100%);
+            color: #fff;
+            text-align: center;
+            padding: 4rem 1.5rem;
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 0.75rem; }
+        .hero p { font-size: 1.15rem; max-width: 640px; margin: 0 auto 1.5rem; color: #d4e4ed; }
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 0.3rem 0.9rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Features */
+        .features {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+        .features h2 { text-align: center; margin-bottom: 2rem; font-size: 1.6rem; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 1.5rem;
+        }
+        .card h3 { margin-bottom: 0.5rem; font-size: 1.1rem; color: #16697a; }
+
+        /* CTA */
+        .cta {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            background: #f0f4f8;
+        }
+        .cta h2 { margin-bottom: 0.75rem; }
+        .cta p { max-width: 540px; margin: 0 auto 1.5rem; color: #555; }
+        .btn {
+            display: inline-block;
+            background: #16697a;
+            color: #fff;
+            padding: 0.7rem 1.6rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .btn:hover { background: #124f5e; text-decoration: none; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            font-size: 0.85rem;
+            color: #777;
+            border-top: 1px solid #e0e0e0;
+        }
+        footer a { margin: 0 0.5rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">QAYIM</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="badge">Currently in Beta</div>
+    <h1>QAYIM — Quran Content Studio</h1>
+    <p>Create, export, and manage beautiful Quran recitation and social-media-ready video content — all in one place.</p>
+</section>
+
+<section class="features">
+    <h2>What QAYIM Offers</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Quran Recitation Content</h3>
+            <p>Select surahs and ayahs, pair them with professional recitations, and produce polished visual content effortlessly.</p>
+        </div>
+        <div class="card">
+            <h3>Social-Media-Ready Export</h3>
+            <p>Export videos optimized for platforms like Instagram, TikTok, YouTube Shorts, and more — with a single tap.</p>
+        </div>
+        <div class="card">
+            <h3>Manage Your Projects</h3>
+            <p>Organize and revisit your content projects so you can keep creating and sharing Quran-inspired media.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Get Started</h2>
+    <p>QAYIM is currently in active development. We're working hard to bring you the best Quran content creation experience. Stay tuned for updates!</p>
+    <a class="btn" href="mailto:contact@example.com">Contact Us</a>
+</section>
+
+<footer>
+    <p>&copy; 2026 QAYIM. All rights reserved.</p>
+    <p>
+        <a href="privacy.html">Privacy Policy</a> &middot;
+        <a href="terms.html">Terms of Service</a> &middot;
+        <a href="mailto:contact@example.com">contact@example.com</a>
+    </p>
+</footer>
+
+</body>
+</html>
